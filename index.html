@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Portofolio Geral</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <!-- Header + Navbar Fixed -->
+        <header class="header">
+            <div class="nav-container">
+                <a class="brand" href="#home" aria-label="Ke beranda">
+                    <span class="logo">G</span>
+                    <span class="brand-text">Geral</span>
+                </a>
+
+                <button class="nav-toggle" aria-label="Buka navigasi" aria-expanded="false">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+
+                <nav class="nav" aria-label="Navigasi utama">
+                    <ul class="nav-list">
+                        <li><a class="nav-link active" href="#about">About Me</a></li>
+                        <li><a class="nav-link" href="#projects">Karya/Project</a></li>
+                        <li><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Hero / Home -->
+        <main id="home" class="main">
+            <section class="section hero">
+                <div class="wrap hero-grid">
+                    <div>
+                        <p class="pill">Portofolio</p>
+                        <h1>Halo, aku <span class="accent">Geral</span></h1>
+
+                        <div class="typing-line">
+                            <span class="typing"> <span id="typingText"></span><span class="cursor">|</span> </span>
+                        </div>
+
+                        <p class="muted hero-desc">
+                            Ini contoh website portofolio sederhana pakai HTML, CSS, dan JavaScript. Kamu bisa ganti
+                            teks, warna, dan project sesuai kebutuhan.
+                        </p>
+
+                        <div class="hero-actions">
+                            <a class="btn primary" href="#projects">Lihat Project</a>
+                            <a class="btn" href="#contact">Kontak</a>
+                        </div>
+
+                        <div class="stats">
+                            <div class="stat">
+                                <div class="stat-num">3+</div>
+                                <div class="stat-label">Project</div>
+                            </div>
+                            <div class="stat">
+                                <div class="stat-num">1+</div>
+                                <div class="stat-label">Tahun belajar</div>
+                            </div>
+                            <div class="stat">
+                                <div class="stat-num">∞</div>
+                                <div class="stat-label">Semangat</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- About -->
+            <section id="about" class="section">
+                <div class="wrap">
+                    <h2>About Me</h2>
+                    <p class="muted">
+                        Tulis deskripsi singkat tentang dirimu: background, minat, dan tujuan karier. Kamu juga bisa
+                        menambahkan pengalaman, sertifikat, atau highlight pencapaian.
+                    </p>
+
+                    <div class="grid-2">
+                        <div class="card">
+                            <h3>Yang aku suka</h3>
+                            <p class="muted">UI yang rapi, animasi halus, dan pengalaman pengguna yang nyaman.</p>
+                            <div class="tags">
+                                <span class="tag">UI</span>
+                                <span class="tag">Frontend</span>
+                                <span class="tag">Responsive</span>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <h3>Tools</h3>
+                            <p class="muted">Beberapa tools yang sering dipakai:</p>
+                            <ul class="list">
+                                <li>VS Code</li>
+                                <li>Git/GitHub</li>
+                                <li>Figma (basic)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Projects -->
+            <section id="projects" class="section">
+                <div class="wrap">
+                    <div class="section-head">
+                        <h2>Karya/Project</h2>
+                        <p class="muted">Contoh kartu project (ganti judul, deskripsi, dan link).</p>
+                    </div>
+
+                    <div class="grid-3">
+                        <article class="card project">
+                            <div class="project-top">
+                                <span class="badge">Web</span>
+                                <span class="muted small">2026</span>
+                            </div>
+                            <h3>Landing Page</h3>
+                            <p class="muted">Landing page responsif dengan layout modern dan CTA yang jelas.</p>
+                            <div class="project-actions">
+                                <a class="link" href="#" target="_blank" rel="noopener">Demo</a>
+                                <a class="link" href="#" target="_blank" rel="noopener">Source</a>
+                            </div>
+                        </article>
+
+                        <article class="card project">
+                            <div class="project-top">
+                                <span class="badge">JS</span>
+                                <span class="muted small">2026</span>
+                            </div>
+                            <h3>To-Do App</h3>
+                            <p class="muted">Aplikasi to-do sederhana: tambah, ceklis, hapus, dan simpan lokal.</p>
+                            <div class="project-actions">
+                                <a class="link" href="#" target="_blank" rel="noopener">Demo</a>
+                                <a class="link" href="#" target="_blank" rel="noopener">Source</a>
+                            </div>
+                        </article>
+
+                        <article class="card project">
+                            <div class="project-top">
+                                <span class="badge">UI</span>
+                                <span class="muted small">2026</span>
+                            </div>
+                            <h3>Portfolio v1</h3>
+                            <p class="muted">Portofolio personal dengan section about, project, dan contact.</p>
+                            <div class="project-actions">
+                                <a class="link" href="#" target="_blank" rel="noopener">Demo</a>
+                                <a class="link" href="#" target="_blank" rel="noopener">Source</a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact -->
+            <section id="contact" class="section">
+                <div class="wrap">
+                    <h2>Contact</h2>
+                    <p class="muted">Kirim pesan lewat form ini (contoh saja, belum terkirim ke email).</p>
+
+                    <div class="grid-2">
+                        <form class="card form" id="contactForm">
+                            <label>
+                                Nama
+                                <input type="text" name="name" placeholder="Nama kamu" required />
+                            </label>
+                            <label>
+                                Email
+                                <input type="email" name="email" placeholder="email@contoh.com" required />
+                            </label>
+                            <label>
+                                Pesan
+                                <textarea name="message" rows="5" placeholder="Tulis pesan..." required></textarea>
+                            </label>
+                            <button class="btn primary" type="submit">Kirim</button>
+                            <p class="muted small" id="formStatus" role="status" aria-live="polite"></p>
+                        </form>
+
+                        <div class="card">
+                            <h3>Info</h3>
+                            <p class="muted">Kamu bisa isi kontak asli kamu di sini:</p>
+                            <ul class="info">
+                                <li><span>Email</span><span>geral@email.com</span></li>
+                                <li><span>GitHub</span><span>github.com/geral</span></li>
+                                <li><span>Instagram</span><span>@geral</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <footer class="footer">
+                <div class="wrap footer-inner">
+                    <p>© <span id="year"></span> Geral. All rights reserved.</p>
+                    <a class="to-top" href="#home">↑ Back to top</a>
+                </div>
+            </footer>
+        </main>
+
+        <script src="script.js"></script>
+    </body>
+</html>
